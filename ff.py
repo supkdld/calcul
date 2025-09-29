@@ -17,11 +17,20 @@ if operat == 1:
     elif znak =="*":
         print(a,"*", b, "=", a*b)
     elif znak =="/":
-        print(a,"/", b, "=", a/b)
+        if b==0:
+            print("На ноль делить нельзя")
+        else:
+            print(a,"/", b, "=", a/b)
     elif znak =="//":
-        print(a,"//", b, "=", a//b)
+        if b==0:
+            print("На ноль делить нельзя")
+        else:
+            print(a,"//", b, "=", a//b)
     elif znak =="%":
-        print(a,"%", b, "=", a%b)
+        if b==0:
+            print("На ноль делить нельзя")
+        else:
+            print(a,"%", b, "=", a%b)
     elif znak =="**":
         print(a,"**", b, "=", a**b)
     else:
