@@ -217,6 +217,7 @@ while not level2_completed:
             time.sleep(1)
             print(enemies["literatur"])
             time.sleep(0.5)
+            literatur_defeated = False:
             while literatur_defeated == False:
                 print("ФИНАЛЬНАЯ ЗАДАЧА: Кто из перечисленных героев является главным идеологом нигилизма в романе И.С.Тургенева Отцы и дети?")
                 print("1 - Николай Петрович Кирсанов")
@@ -255,5 +256,6 @@ print("Знаете кодов:", len(codes))
 print("Ваши выполненные дела:", completed_tasks)
 print("Ваши предметы:", inventory)
 print("Спасибо за игру!")
+
 
 
