@@ -53,7 +53,7 @@ while level1_completed == False:
     elif choice == "4":
         if "бумажка с кодом" in inventory:
             code = input("Введите код от замка: ")
-            if code == "1234" or "0000":
+            if code in codes:
                 print("Замок открылся! Ворота скрипнули...")
                 time.sleep(1)
                 completed_tasks.add("открыл ворота")
@@ -256,6 +256,7 @@ print("Знаете кодов:", len(codes))
 print("Ваши выполненные дела:", completed_tasks)
 print("Ваши предметы:", inventory)
 print("Спасибо за игру!")
+
 
 
 
