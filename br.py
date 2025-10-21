@@ -23,7 +23,7 @@ print("Вы пытаетесь попасть в учебное заведени
 time.sleep(1)
 level1_completed = False
 guard_defeated = False
-while level1_completed = False:
+while level1_completed == False:
     print(locations["entrance"])
     time.sleep(1)
     print("--- ВАШИ ДЕЙСТВИЯ ---")
@@ -61,7 +61,7 @@ while level1_completed = False:
                 time.sleep(1)
                 print("Охранник приближается к вам!")
                 time.sleep(1.3)
-                while guard_defeated = False:
+                while guard_defeated == False:
                     print("--- СПАСАЙТЕСЬ ОТ ОХРАННИКА! ---")
                     print("1 - Спрятаться в кустах")
                     print("2 - Не двигаться") 
@@ -97,7 +97,7 @@ while level1_completed = False:
                 print("Он считает вас злостным прогульщиком...")
                 time.sleep(1)
                 physic_defeated = False
-                while physic_defeated = False:
+                while physic_defeated == False:
                     print("--- ВЫЗОВ БОГА ФИЗИКИ ---")
                     print("Он спрашивает: 'Что измеряется в Ньютонах?'")
                     print("1 - Сила")
@@ -217,7 +217,7 @@ while not level2_completed:
             time.sleep(1)
             print(enemies["literatur"])
             time.sleep(0.5)
-            while literatur_defeated = False:
+            while literatur_defeated == False:
                 print("ФИНАЛЬНАЯ ЗАДАЧА: Кто из перечисленных героев является главным идеологом нигилизма в романе И.С.Тургенева Отцы и дети?")
                 print("1 - Николай Петрович Кирсанов")
                 print("2 - Павел Петрович Кирсанов") 
@@ -255,4 +255,5 @@ print("Знаете кодов:", len(codes))
 print("Ваши выполненные дела:", completed_tasks)
 print("Ваши предметы:", inventory)
 print("Спасибо за игру!")
+
 
